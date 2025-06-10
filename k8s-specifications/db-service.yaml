@@ -4,6 +4,7 @@ metadata:
   labels:
     app: db
   name: db
+  namespace: test
 spec:
   type: ClusterIP
   ports:
